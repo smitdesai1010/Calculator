@@ -4,31 +4,24 @@ body{
 }
 
 table{
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  outline: solid 1px;
-  width: 350px;
-  height: 550px;
-  background-color: #17202A;
+  margin: auto;
+  table-layout: fixed;
+  height: 500px;
+  width: 800px;
 }
 
 button{
-  margin: auto;
-  font-size: 25px;
-  position: relative;
-  left: 50%;
-  transform: translate(-50%, 30%);
-  width: 75px;
-  height: 75px;
-  border-radius: 50%;
-  cursor: pointer;
-  align-content: center;
+  height: 100%;
+  width: 100%;
+  font-size: 40px;
 }
 
-#result{
-  height: 100px;
-  border-bottom: solid white 100px;
-  border: solid white 1px;
+#zero{
+  width: 200%;
+  background-color: red;
+}
+
+#last button{
+  position: relative;
+  background-color: green;
 }
