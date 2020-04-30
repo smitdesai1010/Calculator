@@ -8,37 +8,48 @@
 
   <body>
 
-    <table>
-     <tbody>
-       <tr>
-         <td><button type="button" name="button">7</button></td>
-         <td><button type="button" name="button">8</button></td>
-         <td><button type="button" name="button">9</button></td>
-         <td><button type="button" name="button">*</button></td>
-       </tr>
+  <div class="container">
 
-       <tr>
-         <td><button type="button" name="button">4</button></td>
-         <td><button type="button" name="button">5</button></td>
-         <td><button type="button" name="button">6</button></td>
-         <td><button type="button" name="button">/</button></td>
-       </tr>
+    <div class="result">Result</div>
 
-       <tr>
-         <td><button type="button" name="button">1</button></td>
-         <td><button type="button" name="button">2</button></td>
-         <td><button type="button" name="button">3</button></td>
-         <td><button type="button" name="button">+</button></td>
-       </tr>
+    <div class="calcbody">
+      <div class="row">
+       <span>
+           <button class="num">9</button>
+           <button class="num">8</button>
+           <button class="num">7</button>
+           <button class="opt">/</button>
+       </span>
+      </div>
 
-       <tr id="last">
-         <td><button id="zero" type="button" name="button">0</button></td>
-         <td><button type="button" name="button">clr</button></td>
-         <td><button type="button" name="button">-</button></td>
-       </tr>
+      <div class="row">
+       <span>
+           <button class="num">6</button>
+           <button class="num">5</button>
+           <button class="num">4</button>
+           <button class="opt">*</button>
+       </span>
+      </div>
 
-     </tbody>
-   </table>
+       <div class="row">
+        <span>
+           <button class="num">3</button>
+           <button class="num">2</button>
+           <button class="num">1</button>
+           <button class="opt">-</button>
+       </span>
+      </div>
+
+       <div class="row">
+        <span>
+           <button class="num" id="zero">0</button>
+           <button class="opt">clr</button>
+           <button class="opt">+</button>
+       </span>
+      </div>
+
+     </div>
+    </div>
 
   </body>
 </html>
