@@ -9,13 +9,12 @@
  <body>
 
   <div class="container">
-
-    <div class="result">Result</div>
+    <div class="result">0</div>
 
     <div class="calcbody">
       <div class="row">
        <span>
-           <button class="num">9</button>
+           <button onclick="show(9)" class="num">9</button>
            <button class="num">8</button>
            <button class="num">7</button>
            <button class="opt">/</button>
@@ -51,5 +50,18 @@
      </div>
     </div>
 
+
   </body>
+
+
+<script type="text/javascript">
+
+function show(num){
+  let answer=document.getElementsByClassName('result');
+  alert(answer);
+  answer.innerHTML="smit";
+}
+
+</script>
+
 </html>
