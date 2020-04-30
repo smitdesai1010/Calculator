@@ -12,7 +12,7 @@
   border-radius: 15px 15px 0px 0px;
 }
 
-.result{ 
+.result{
   height: 100px;
   width: 100%;
   border-bottom: solid black 1px;
@@ -39,18 +39,31 @@ button{
   height: 100%;
   width: 25%;
   font-size: 40px;
+  cursor: pointer;
 }
 
 .num{
   border: solid white 1px;
   color: white;
   background-color: black;
+  transition: color 0.5s,background-color 0.5s;
+}
+
+.num:hover{
+  color: black;
+  background-color: white;
 }
 
 .opt{
   border: solid black 1px;
   color: black;
   background-color: white;
+  transition: color 0.5s,background-color 0.5s;
+}
+
+.opt:hover{
+  color: white;
+  background-color: black;
 }
 
 #zero{
