@@ -7,6 +7,7 @@
   padding: 50px;
   position: absolute;
   border: solid black 3px;
+  border-radius: 100px;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
@@ -27,9 +28,10 @@ h1{
   width: 400px;
   border: solid black 2px;
   border-radius: 25px 25px 25px 25px;
-  color: blue;
+  color: black;
   background-color: white;
   font-size: 20px;
+  font-weight: 1000;
   text-align: center;
   transition: width 1s,background-color 1s;
 }
