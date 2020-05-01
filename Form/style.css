@@ -6,7 +6,7 @@
 .container{
   padding: 50px;
   position: absolute;
-  border: solid black 3px;
+  border: solid black 5px;
   border-radius: 100px;
   top: 50%;
   left: 50%;
@@ -23,9 +23,16 @@ h1{
  font-weight: 1000;
 }
 
+#name{
+  width: 300px;
+}
+
+#email{
+  width: 400px;
+}
+
 #name , #email{
   height: 60px;
-  width: 400px;
   border: solid black 2px;
   border-radius: 25px 25px 25px 25px;
   color: black;
@@ -36,7 +43,14 @@ h1{
   transition: width 1s,background-color 1s;
 }
 
-#name:hover, #email:hover{
+#name:hover{
+  width:400px;
+  color: white;
+  background-color: black;
+  border-color: white;
+}
+
+#email:hover{
   width:500px;
   color: white;
   background-color: black;
