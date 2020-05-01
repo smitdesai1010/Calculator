@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  //background-color: #317ED3;
+}
+
+.container{
+  padding: 50px;
+  position: absolute;
+  border: solid black 1px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 450px;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #000000;
+}
+
+#label{
+  position: absolute;
+}
+
+#name , #email{
+  height: 40px;
+  width: 300px;
+  border: solid blue 1px;
+  border-radius: 25px 25px 25px 25px;
+  text-align: center;
+  transition: width 1s,background-color 1s;
+}
+
+#name:hover, #email:hover{
+  width:400px;
+  background-color: #FFFFFF;
+}
