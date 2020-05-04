@@ -6,17 +6,18 @@ function addtolist(){
 
   event.preventDefault();
 
-  console.log("linked");
-  var obj=document.createElement('div');
+  const obj=document.createElement('div');
   obj.classList.add("list-obj");
 
-  var value=document.createElement('li');
+  const value=document.createElement('li');
   value.classList.add("list-obj-value");
 
-  var mark=document.createElement('button');
+  const mark=document.createElement('button');
+  mark.innerHTML='<i class="fas fa-check-square"></i>';
   mark.classList.add("list-obj-mark");
 
-  var trash=document.createElement('button');
+  const trash=document.createElement('button');
+  trash.innerHTML='<i class="fas fa-trash"></i>';
   trash.classList.add("list-obj-trash");
 
    obj.appendChild(value);

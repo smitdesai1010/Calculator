@@ -40,7 +40,53 @@ form button:hover{
   background-color: white;
 }
 
+.container{
+  position: relative;
+  background: black;
+  height: 70vh;
+  width: 100%;
+}
+
+.todo-list{
+  margin-left: auto;
+  margin-right: auto;
+  background-color: brown;
+  height: 70vh;
+  width: 500px;
+}
 
 .list-obj{
-  background-color: white;
+  margin-bottom: 15px;
+  height: 8vh;
+  width: 100%;
+  display: flex;
+}
+
+.list-obj-value{
+  border: none;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 80%;
+  background: green;
+}
+
+.list-obj-mark{
+  border: none;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 10%;
+  font-size: 1.5rem;
+  background: yellow;
+}
+
+.list-obj-trash{
+  border: none;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 10%;
+  font-size: 1.3rem;
+  background: blue;
 }
