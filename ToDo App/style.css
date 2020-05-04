@@ -67,6 +67,7 @@ form button:hover{
   background-color: white;
   height: 100%;
   width: 80%;
+  list-style-type: none;
 }
 
 .list-obj-mark , .list-obj-trash{
