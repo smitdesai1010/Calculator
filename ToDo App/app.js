@@ -2,6 +2,7 @@ var list=document.querySelector('.todo-list');
 
 document.querySelector('#btn').addEventListener('click',addtolist);
 
+
 function addtolist(){
 
   event.preventDefault();
@@ -25,5 +26,4 @@ function addtolist(){
    obj.appendChild(trash);
 
   list.appendChild(obj);
-
 }
