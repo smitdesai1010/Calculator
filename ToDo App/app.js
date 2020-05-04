@@ -21,8 +21,8 @@ function addtolist(){
   trash.classList.add("list-obj-trash");
 
    obj.appendChild(value);
-   obj.appendChild(mark);
-   obj.appendChild(trash);
+   //obj.appendChild(mark);
+   //obj.appendChild(trash);
 
   list.appendChild(obj);
 

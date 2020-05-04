@@ -30,7 +30,7 @@ form input,form button{
 
 form button{
   cursor: pointer;
-  background-color: #fda085;
+  background-color: inherit;
   color: white;
   transition: all ease 0.5s;
 }
@@ -42,7 +42,6 @@ form button:hover{
 
 .container{
   position: relative;
-  background: black;
   height: 70vh;
   width: 100%;
 }
@@ -50,7 +49,6 @@ form button:hover{
 .todo-list{
   margin-left: auto;
   margin-right: auto;
-  background-color: brown;
   height: 70vh;
   width: 500px;
 }
@@ -66,27 +64,19 @@ form button:hover{
   border: none;
   margin: 0;
   padding: 0;
+  background-color: white;
   height: 100%;
   width: 80%;
-  background: green;
 }
 
-.list-obj-mark{
+.list-obj-mark , .list-obj-trash{
   border: none;
   margin: 0;
   padding: 0;
   height: 100%;
   width: 10%;
   font-size: 1.5rem;
-  background: yellow;
-}
-
-.list-obj-trash{
-  border: none;
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  width: 10%;
-  font-size: 1.3rem;
-  background: blue;
+  color: white;
+  background-color: inherit;
+  transition: all 0.5 ease;
 }
