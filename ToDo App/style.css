@@ -32,10 +32,15 @@ form button{
   cursor: pointer;
   background-color: #fda085;
   color: white;
-  transition: all ease 1s;
+  transition: all ease 0.5s;
 }
 
 form button:hover{
   color: #fda085;
+  background-color: white;
+}
+
+
+.list-obj{
   background-color: white;
 }
