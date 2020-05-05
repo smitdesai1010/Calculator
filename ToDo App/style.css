@@ -50,6 +50,7 @@ form button:hover{
   padding-top: 50px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 50px;
   height: 70vh;
   width: 500px;
 }
@@ -65,10 +66,15 @@ form button:hover{
   border: none;
   margin: 0;
   padding: 0;
+  color: black;
   background-color: white;
   height: 100%;
   width: 80%;
+  font-size: 25px;
+  text-align: left;
   list-style-type: none;
+  text-decoration-line: none;
+  transition: text-decoration-line 2s;
 }
 
 .list-obj-mark , .list-obj-trash{
@@ -85,11 +91,10 @@ form button:hover{
 }
 
 .list-obj-mark:hover {
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 .list-obj-trash:hover{
-  font-size: 1.7rem;
   color: red;
   animation: shake 0.5s;
   animation-iteration-count: infinite;
