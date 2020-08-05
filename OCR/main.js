@@ -2,16 +2,15 @@ function ocr(){
     console.log('heyy')
     
     var img = document.getElementById("myfile").files[0];
-
-    console.log(img)
-
     
-    Tesseract.recognize(
-      img,
-      'eng',
-    ).then(({ data: { text } }) => {
-      console.log(text);
+    Tesseract.recognize( img,'eng')
+    .then( ({ data: { text } })  => {
+       console.log(text)
     })
+    .catch ( () => {
+      console.log('ERROR');
+    })
+    
     
     console.log('finish')
 }

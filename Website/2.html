@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Learning the DOM</title>
+
+    <script>
+     const smit={
+       name:'SMIT',
+       surname:'DESAI',
+       number: 1010,
+       true:false,
+       greet : function() { return this.surname; },
+     }
+
+     smit.des = function(){
+       return this.name+" "+this.surname;
+     }
+
+    </script>
+  </head>
+
+
+  <body>
+
+    <h1>Document Object Model</h1>
+
+    <p id="demo"></p>
+
+
+    <script> document.getElementById("demo").innerHTML=smit.des(); </script>
+
+  </body>
+</html>
